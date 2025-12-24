@@ -1,0 +1,17 @@
+{
+    packs: [
+        {
+            fetcher: "github",
+            source: "SlarofMC/Slarof_Additions/release",
+            name: "Slarof Additions",
+            forceDownload: true,
+            forceEnable: false
+        }
+    ],
+    // Удалять загруженные МОДОМ текстурпаки, отсутствующие в конфигурации, чтобы освободить память
+    pruneUnused: true,
+    // Фильтровать пакеты для удаления файлов без изменений из обычных и пустых каталогов
+    filterPacks: true,
+    // Логировать этапы автоматической обработки, применяемые к загруженным пакетам
+    logProcessing: true
+}
