@@ -5,7 +5,7 @@
             source: "SlarofMC/Slarof_Additions/release",
             name: "Slarof Additions",
             forceDownload: true,
-            forceEnable: false
+            forceEnable: true
         }
     ],
     // Удалять загруженные МОДОМ текстурпаки, отсутствующие в конфигурации, чтобы освободить память
