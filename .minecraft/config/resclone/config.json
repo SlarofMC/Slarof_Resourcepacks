@@ -1,8 +1,15 @@
 {
     packs: [
         {
-            fetcher: "github",
-            source: "SlarofMC/Slarof_Additions/release",
+            fetcher: "file",
+            source: "https://github.com/SlarofMC/Slarof_Resourcepacks/releases/download/ksepsp/RP.KSEPSP.zip",
+            name: "KSEPSP",
+            forceDownload: true,
+            forceEnable: true
+        },
+        {
+            fetcher: "file",
+            source: "https://github.com/SlarofMC/Slarof_Resourcepacks/releases/download/slarof-additions/RP.Slarof_Additions.zip",
             name: "Slarof Additions",
             forceDownload: true,
             forceEnable: true
